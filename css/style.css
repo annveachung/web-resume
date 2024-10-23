@@ -1,0 +1,335 @@
+.first{
+    background-image: url(/img/backgroundone.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    font-size: 1.25em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px 60px 20px;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#firstname{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #E2DFD0; 
+    text-align: center;
+    font-size: 2em;
+    margin: 30px auto 0 auto;
+}
+
+#intro{
+    font-family: "Verdana";
+    font-size: 0.7em;
+    color: #E2DFD0; 
+    text-align: justify;
+    margin: 50px auto 0 auto;
+    padding: 0 50px;
+    max-width: 750px;
+}
+
+.logo{
+    height: 50px;
+    margin: 0 auto;
+}
+
+.dark.logo path{
+    fill: #3C3D37;
+}
+
+.light.logo path{
+    fill: #E2DFD0;
+}
+  
+.second{
+    background-color: #2C3639;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+}
+
+.second .logo{
+    margin: 0 60px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.iconcontainer {
+    text-align: center;
+}
+
+#firstbasic{
+    font-family: Verdana;
+    color: #E2DFD0; 
+    font-size: 1em;
+    width: 400px;
+    text-align: right;
+}
+
+#secondbasic{
+    font-family: Verdana;
+    color: #E2DFD0; 
+    font-size: 1em;
+    width: 400px;
+    text-align: left;
+}
+
+.experience{
+    background-color: #3F4E4F;
+    padding-bottom: 40px;
+}
+
+.experience .headings{
+    color: #E2DFD0;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+.experience .material-icons{
+    color:#E2DFD0;
+}
+
+.experience .page .sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.experience .page .sidebar .line{
+    width: 1px;
+    height: 100%;
+    background-color: #E2DFD0;
+    margin: 5px auto;
+}
+
+.experience .page .content{
+    margin: 0 0;
+    color:#E2DFD0;
+    font-family:  barlow condensed;
+}
+
+.experience .page{
+    padding: 0 10px 15px 10px;
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.experience .page .content .workingbasic{
+    margin: 0 auto 10px auto;
+    font-size: 15px;
+    font-family: "Verdana";
+}
+
+.experience .workingyear{
+    line-height: 24px;
+}
+
+.experience .page .content .status{
+    margin: 0 auto 20px auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience .page .content .status .company{
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.experience .page .content .description{
+    margin: 0 auto 20px auto;
+    font-size: 15px;
+    font-family: "Verdana";
+}
+
+.description1{
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+}
+
+.education{
+    background-color: #2a5050;
+    padding-bottom: 40px;
+}
+
+.education .headings{
+    color: #E2DFD0;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.education .material-icons{
+    color:#E2DFD0;
+}
+
+.education .page .sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.education .page .sidebar .line{
+    width: 1px;
+    height: 100%;
+    background-color: #E2DFD0;
+    margin: 4px auto;
+}
+
+.education .page .content{
+    margin: 0 0;
+    color:#E2DFD0;
+    font-family:  barlow condensed;
+}
+
+.education .workingyear{
+    line-height: 24px;
+}
+
+.education .page{
+    padding: 0 10px 15px 10px;
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.education .page .content .workingbasic{
+    margin: 0 auto 10px auto;
+    font-size: 15px;
+    font-family: "Verdana";
+}
+
+.education .page .content .status{
+    margin: 0 auto 20px auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.education .page .content .status .company{
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.education .page .content .description{
+    margin: 0 auto 20px auto;
+    font-size: 15px;
+    font-family: "Verdana";
+}
+
+.skills{
+    position: relative;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent content from wrapping */
+    height: 200px; /* Set a height for the section */
+    background-color: #A27B5C;
+}
+
+.background-text{
+    font-family: "Montserrat";
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em; /* Size of the background text */
+    color: rgba(0, 0, 0, 0.1); /* Half transparent black */
+    pointer-events: none; /* Prevent interaction with background text */
+}
+
+.content{
+    display: inline-block; /* Ensure the content is displayed in a row */
+    font-size: 1.2em;
+}
+
+.skills .iconset{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 200px;
+}
+
+.skills .iconset .icon{
+    width: 80px;  
+    opacity: 0.7;
+    margin: auto 40px;
+    transition: all 0.25s ease-in-out;
+}
+
+.skills .iconset .icon:hover{
+    scale: 1.15;
+    opacity: 0.9;
+    transition: all 0.25s ease-in-out;
+}
+
+.contact{
+    display: flex;
+    height: 190px;
+}
+
+.contact .quote{
+    background-color: #c3bcaa;
+    flex: 65%;
+}
+
+.contact .quote1{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 30px 30px;
+    color: #3C3D37;
+}
+
+.contact .quote2{
+    margin: 0 30px;
+    font-family: Verdana;
+    font-size: 15px;
+    color: #3C3D37;
+}
+
+.contact .info{
+    background-color: #E2DFD0;
+    flex: 35%;
+}
+
+.contact .info .icon{
+    height: 70px;
+    margin: 0 30px;
+    opacity: 0.7;
+    transition: all 0.25s ease-in-out;
+}
+
+.contact .icon:hover{
+    scale: 1.15;
+    opacity: 0.9;
+    transition: all 0.25s ease-in-out;
+}
